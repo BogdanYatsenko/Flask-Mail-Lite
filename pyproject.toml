@@ -1,0 +1,26 @@
+[project]
+name = "velza-mail"
+version = "0.10.0+by.1"
+description = "Email utilities for Flask (cleaned and repackaged by Bogdan Yatsenko)"
+readme = "README.md"
+license = { file = "LICENSE.BSD-3" }
+authors = [{ name = "Bogdan Yatsenko" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Flask",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://example.com"
+Issues = "https://example.com/issues"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "flask_mail"
